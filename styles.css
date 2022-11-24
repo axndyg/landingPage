@@ -1,0 +1,17 @@
+
+.container { 
+    height: 100vh; 
+    display: flex; 
+}
+
+.header { 
+
+} 
+
+.content { 
+    flex-grow: 1; 
+}
+
+.footer{ 
+    
+}
