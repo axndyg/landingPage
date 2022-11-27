@@ -125,6 +125,36 @@ body {
                 flex: 0 0 auto;
             }
 
+    .qoute { 
+        background-color: #E5E7EB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        
+    }
+
+        .q-holder {
+          
+            flex: 1;
+            display: flex; 
+            flex-flow: column;
+            gap: 20px;
+            max-width: 50%;
+            padding: 20px 60px;
+           
+        }
+
+            .q-qoute { 
+                font-size: 27px;
+                font-weight: lighter;
+            }
+
+            .q-credit { 
+                align-self: flex-end;
+                font-size: 20px;
+            }
+
 
 .footer{ 
     display: flex;
