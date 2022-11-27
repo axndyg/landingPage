@@ -76,11 +76,62 @@ body {
          
 
         .i-right { 
-            align-self: center;
             max-width: 49%;
-       
-        
         }
+
+        .img-intro {
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+     
+        }
+
+    .info { 
+  
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+
+    }
+
+        .info-title {
+            font-size: 25px;
+            font-weight:bolder;
+
+        }
+
+        .cards-holder{
+            align-self: stretch;
+   
+            gap: 60px;
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+        }
+
+            .card{ 
+                
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                font-size: 12px;
+                gap: 6px;
+                flex: 1 1 auto;
+                max-width: 140px;
+                max-height: 280px;
+                text-align: center;
+            }
+
+            .c-graphic { 
+                border-radius: 10px;
+                border: 2px solid royalblue;
+                height: 140px;
+                width: 140px;
+                flex: 0 0 auto;
+            }
+
 
 .footer{ 
     display: flex;
@@ -122,3 +173,5 @@ button {
     background: royalblue;
     color: white;
 }
+
+
