@@ -44,13 +44,13 @@ body {
     }
 
     .i-holder { 
-       
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        flex: auto;
+        min-width: 65%;
         max-width: 65%;
-        padding-top: 40px;
+        row-gap: 20px;
+        padding: 40px 0 20px 0;
 
     }
         .i-title { 
@@ -62,26 +62,19 @@ body {
         .i-left { 
             display: flex;
             flex-direction: column;
+            flex: 1;
             max-width: 49%;
-            min-width:40%;
+            min-width: 40%;
             
         }
-
-            
-            .but { 
-                
+            .but {      
                 margin-top: 2%;
             }
-
-         
-
-        .i-right { 
-            max-width: 49%;
-        }
 
         .img-intro {
             border-radius: 10px;
             box-shadow: 0 0 10px #ccc;
+
      
         }
 
