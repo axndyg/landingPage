@@ -9,6 +9,8 @@ body {
     height: 100%; 
     display: flex;
     flex-flow: column nowrap; 
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .header { 
@@ -38,6 +40,7 @@ body {
 }
 
     .intro {
+        align-self: stretch;
         display: flex;
         justify-content: center;
         font-weight: 18px;   
@@ -55,7 +58,7 @@ body {
 
     }
         .i-title { 
-            font-size: 40px;
+            font-size: 48px;
             font-weight:bolder;
             color: #e0e0e0;
         }
@@ -92,14 +95,13 @@ body {
     }
 
         .info-title {
-            font-size: 25px;
+            font-size: 36px;
             font-weight:bolder;
 
         }
 
         .cards-holder{
-            align-self: stretch;
-            gap: 60px;
+            gap: 80px;
             display: flex;
             flex-flow: wrap;
             justify-content: center;
@@ -110,7 +112,7 @@ body {
                 display: flex;
                 flex-flow: column nowrap;
                 align-items: center;
-                font-size: 12px;
+                font-size: 18px;
                 gap: 6px;
                 flex: 1 1 auto;
                 max-width: 200px;
@@ -124,6 +126,7 @@ body {
 
 
     .qoute { 
+        align-self: stretch;
         background-color: #E5E7EB;
         display: flex;
         justify-content: center;
@@ -144,7 +147,7 @@ body {
         }
 
             .q-qoute { 
-                font-size: 27px;
+                font-size: 36px;
                 font-weight: lighter;
             }
 
@@ -154,6 +157,15 @@ body {
             }
 
     .action {
+    
+        align-self: stretch;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-holder { 
         background: rgb(101, 139, 252);
         border-radius: 10px;
         margin: 40px;
@@ -175,10 +187,11 @@ body {
 
             .a-title { 
                 font-weight: bolder;
+                font-size: 27px;
             }
 
             .a-text { 
-                font-size: 12px;
+                font-size: 18px;
             }
 
 .footer{ 
@@ -221,6 +234,7 @@ button {
     border-color: rgb(101, 139, 252);
     background: rgb(101, 139, 252);
     color: white;
+    font-size: 18px;
 }
 
 
