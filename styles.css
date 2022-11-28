@@ -33,6 +33,7 @@ body {
 .content { 
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex: auto; 
 }
 
@@ -71,7 +72,8 @@ body {
                 margin-top: 2%;
             }
 
-        .img-intro {
+
+        .img-intro, .g-image {
             border-radius: 10px;
             box-shadow: 0 0 10px #ccc;
 
@@ -80,7 +82,7 @@ body {
 
     .info { 
   
-        padding: 20px;
+        padding: 40px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -97,7 +99,6 @@ body {
 
         .cards-holder{
             align-self: stretch;
-   
             gap: 60px;
             display: flex;
             flex-flow: wrap;
@@ -112,18 +113,15 @@ body {
                 font-size: 12px;
                 gap: 6px;
                 flex: 1 1 auto;
-                max-width: 140px;
-                max-height: 280px;
+                max-width: 200px;
+                max-height: 400px;
                 text-align: center;
             }
 
             .c-graphic { 
-                border-radius: 10px;
-                border: 2px solid royalblue;
-                height: 140px;
-                width: 140px;
                 flex: 0 0 auto;
             }
+
 
     .qoute { 
         background-color: #E5E7EB;
@@ -155,6 +153,33 @@ body {
                 font-size: 20px;
             }
 
+    .action {
+        background: rgb(101, 139, 252);
+        border-radius: 10px;
+        margin: 40px;
+        padding: 20px 40px;
+        display: flex;
+        flex-flow: wrap;
+        row-gap: 11px;
+        width: 70%; 
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+
+        .a-left {
+            display: flex;
+            flex-flow: column;
+            max-width: 50%;
+        }
+
+            .a-title { 
+                font-weight: bolder;
+            }
+
+            .a-text { 
+                font-size: 12px;
+            }
 
 .footer{ 
     display: flex;
@@ -193,7 +218,8 @@ ul {
 button { 
     padding: 8px 16px;
     border-radius: 8px;
-    background: royalblue;
+    border-color: rgb(101, 139, 252);
+    background: rgb(101, 139, 252);
     color: white;
 }
 
